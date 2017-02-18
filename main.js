@@ -3,3 +3,17 @@ function sayear() {
     ear.play();
 }
 $("#mixtape").on("click", sayear);
+
+//ear2 is PPAP
+function sayear2() {
+    var ear2 = new Audio ("PPAP.mp3");
+    ear2.play();
+}
+$("#meme").on("click", sayear2);
+
+//ear3 is mr postman
+function sayear3() {
+    var ear3 = new Audio ("Mr. Postman EARRAPE.mp3")
+    ear3.play();
+}
+$("#whom").on("click", sayear3)
