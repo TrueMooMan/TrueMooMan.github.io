@@ -1,13 +1,9 @@
 img {
-    width: 350px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
 }
 body {
     text-align: center;
-    font-family: "Arail";
+    font-family: "Arial";
     
-}
-.soundcloud {
-    width: 400px;
-    height: 250px;
 }
