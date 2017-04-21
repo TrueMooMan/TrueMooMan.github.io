@@ -13,7 +13,14 @@ $("#meme").on("click", sayear2);
 
 //ear3 is mr postman
 function sayear3() {
-    var ear3 = new Audio ("Mr. Postman EARRAPE.mp3")
+    var ear3 = new Audio ("Mr. Postman EARRAPE.mp3");
     ear3.play();
 }
 $("#whom").on("click", sayear3)
+
+//ear4 is cough
+function sayear4() {
+    var ear4 = new Audio ("Patrick - Coughing.mp3");
+    ear4.play();
+}
+$("#cough").on("click", sayear4)
