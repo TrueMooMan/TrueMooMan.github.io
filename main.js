@@ -24,3 +24,24 @@ function sayear4() {
     ear4.play();
 }
 $("#cough").on("click", sayear4)
+
+//ear5 is clash royale
+function sayear5() {
+    var ear5 = new Audio ("Cannon Collins - Clash Royale Ear Rape.mp3");
+    ear5.play();
+}
+$("#cannon_collins").on("click", sayear5)
+
+//ear6 is joke
+function sayear6() {
+    var ear6 = new Audio ("joke(earrape).wav");
+    ear6.play();
+}
+$("#joke").on("click", sayear6)
+
+//ear7 is moan
+function sayear7() {
+    var ear7 = new Audio ("moan.mp3");
+    ear7.play();
+}
+$("#moan").on("click", sayear7)
