@@ -45,3 +45,17 @@ function sayear7() {
     ear7.play();
 }
 $("#moan").on("click", sayear7)
+
+//ear8 is pepe
+function sayear8() {
+    var ear8 = new Audio ("pepe_screech.mp3");
+    ear8.play();
+}
+$("#pepe").on("click", sayear8)
+
+//ear9 is normies
+function sayear9() {
+    var ear9 = new Audio ("REEE.mp3");
+    ear9.play();
+}
+$("#normies").on("click", sayear9)
