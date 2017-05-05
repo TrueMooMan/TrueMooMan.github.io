@@ -50,7 +50,7 @@ body{
     animation-iteration-count:infinite;
     padding: auto;
     padding-top: 10px;
-    height: 100px;
+    min-height: 100px;
 }
 
 img {
@@ -73,3 +73,7 @@ width: 10px;
     font-family: Arial
 }
 
+.face {
+    height: 150px;
+    width: 400px;
+}
